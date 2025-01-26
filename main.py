@@ -51,7 +51,7 @@ def calc_mean_erp(trial_points_file, ecog_data_file):
     plt.grid(True)
     plt.show()
 
+    print(fingers_erp_mean)
     return fingers_erp_mean
 
-fingers_erp_mean = calc_mean_erp("events_file_ordered.csv", "brain_data_channel_one.csv")
-print(fingers_erp_mean)
+calc_mean_erp("events_file_ordered.csv", "brain_data_channel_one.csv")
