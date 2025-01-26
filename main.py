@@ -54,4 +54,3 @@ def calc_mean_erp(trial_points_file, ecog_data_file):
     return fingers_erp_mean
 
 fingers_erp_mean = calc_mean_erp("events_file_ordered.csv", "brain_data_channel_one.csv")
-print("hi")
